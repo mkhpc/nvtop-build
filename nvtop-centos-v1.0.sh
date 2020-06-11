@@ -8,10 +8,10 @@
 #! /bin/bash
 
 # working directory
-WORKDIR="$HOME/pkg/"
+WORKDIR="$HOME"
 
 # installation path
-INSTALLDIR="/opt/apps"
+INSTALLDIR="$HOME/apps/nvtop"
 
 # CMake, ncurses and git installation
 sudo yum install -y cmake ncurses-devel git 
